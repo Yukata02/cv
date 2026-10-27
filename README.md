@@ -130,28 +130,6 @@ npm run preview
 
 ---
 
-## 🌐 How to Deploy to Vercel (Step-by-Step)
-
-### Option A: Via Vercel Web Dashboard (Recommended - 2 Minutes)
-1. Push your repository to **GitHub** (see instructions below).
-2. Go to [https://vercel.com](https://vercel.com) and log in with your **GitHub account**.
-3. Click the **"Add New..."** button and select **"Project"**.
-4. Find your `personal-cv-website` repository from the list and click **"Import"**.
-5. Vercel automatically detects **Vite**:
-   - Framework Preset: `Vite`
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-6. Click **"Deploy"**.
-7. In ~30 seconds, Vercel gives you your live publicly accessible link (e.g., `https://personal-cv-website.vercel.app`)!
-
-### Option B: Via Vercel CLI
-```bash
-npm i -g vercel
-vercel
-```
-
----
-
 ## 📄 Exporting as a PDF Resume
 
 The website features an integrated **Download / Print CV** button in the navbar and hero section:
@@ -159,17 +137,3 @@ The website features an integrated **Download / Print CV** button in the navbar 
 2. The print stylesheet automatically hides navigation bars, buttons, and animations, formatting your data into an elegant, formal, black-and-white 1-2 page curriculum vitae suitable for HR and company applications.
 3. Select **"Save as PDF"** as your printer destination.
 
----
-
-## 📜 Meaningful Git Commit History
-
-To satisfy the grading requirement for a progressive development history:
-- `chore: initialize React + Vite project with Tailwind CSS and Lucide icons`
-- `feat: add centralized cvData schema and comprehensive portfolio profile data`
-- `feat: implement responsive Navbar and Hero section with dark mode support`
-- `feat: add About and Education timeline sections with academic achievements`
-- `feat: implement Skills section with interactive categorization and animated progress`
-- `feat: build Projects gallery with interactive filters and modal previews`
-- `feat: add Experience, Certifications, and Organizations showcase`
-- `feat: add interactive Contact section, Social links, and print-ready CV export`
-- `docs: add comprehensive README with deployment guide and project details`
