@@ -9,7 +9,7 @@ export const cvData: CVData = {
       "UI/UX Enthusiast",
       "Future IT Professional"
     ],
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
+    avatar: "/profile.jpg",
     tagline: "Building intuitive, modern digital experiences and scalable web solutions.",
     summary: "Dedicated 4th-year Bachelor of Science in Information Technology student with a strong passion for full-stack web engineering, human-centered UI/UX design, and cloud technologies. Proven track record of hands-on programming coursework, leadership in student developer organizations, and developing functional web applications. Eager to contribute technical skills and collaborative problem-solving to high-impact internship and development opportunities.",
     objective: "To secure a challenging Software Developer or Web Development Internship where I can apply my foundation in React, TypeScript, Node.js, and modern database systems to solve real-world problems, accelerate software delivery, and grow under experienced engineering mentorship."

@@ -49,24 +49,31 @@ export const Projects: React.FC = () => {
           </p>
         </motion.div>
 
-        {/* Category Filters with Fluid Motion */}
-        <div className="flex items-center justify-center gap-2 mb-12 overflow-x-auto pb-2 scrollbar-none">
-          {categories.map((cat) => (
-            <motion.button
-              key={cat}
-              whileHover={{ scale: 1.04 }}
-              whileTap={{ scale: 0.96 }}
-              transition={{ duration: 0.2, ease: fluidEase }}
-              onClick={() => setSelectedCategory(cat)}
-              className={`px-5 py-2.5 rounded-xl text-xs sm:text-sm font-mono font-semibold transition-all relative ${
-                selectedCategory === cat
-                  ? 'bg-gradient-to-r from-brand-600 to-cyan-600 text-white shadow-md shadow-cyan-500/25 border border-cyan-400/50'
-                  : 'bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 border border-slate-200/80 dark:border-slate-800'
-              }`}
-            >
-              {cat}
-            </motion.button>
-          ))}
+        {/* Category Filters with Sliding Layout Pill */}
+        <div className="flex items-center justify-center gap-2 mb-12 overflow-x-auto pb-2 scrollbar-none font-mono">
+          {categories.map((cat) => {
+            const isActive = selectedCategory === cat;
+            return (
+              <button
+                key={cat}
+                onClick={() => setSelectedCategory(cat)}
+                className={`relative px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-colors z-10 ${
+                  isActive
+                    ? 'text-slate-950 font-bold'
+                    : 'text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white'
+                }`}
+              >
+                {isActive && (
+                  <motion.div
+                    layoutId="activeProjectCategory"
+                    className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-indigo-400 rounded-xl shadow-lg shadow-cyan-500/25 -z-10"
+                    transition={{ type: 'spring', stiffness: 350, damping: 30 }}
+                  />
+                )}
+                <span>{cat}</span>
+              </button>
+            );
+          })}
         </div>
 
         {/* Projects Grid with Staggered Fluid Motion */}

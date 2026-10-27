@@ -10,6 +10,8 @@ import { GitHubShowcase } from './components/GitHubShowcase';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { PrintableCV } from './components/PrintableCV';
+import { CyberParticles } from './components/CyberParticles';
+import { TacticalHudOverlay } from './components/TacticalHudOverlay';
 
 export const App: React.FC = () => {
   const handlePrintCV = () => {
@@ -18,8 +20,14 @@ export const App: React.FC = () => {
 
   return (
     <ThemeProvider>
+      {/* Interactive Background Particle Field */}
+      <CyberParticles />
+
+      {/* Futuristic Tactical HUD Overlay (Laser progress bar, live coordinates, equalizer) */}
+      <TacticalHudOverlay />
+
       {/* Screen Interactive Website */}
-      <div className="min-h-screen flex flex-col no-print">
+      <div className="min-h-screen flex flex-col no-print relative z-10">
         {/* Sticky Header Navigation */}
         <Navbar onPrintCV={handlePrintCV} />
 

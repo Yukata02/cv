@@ -67,7 +67,7 @@ export const Hero: React.FC<HeroProps> = ({ onPrintCV }) => {
               <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping" />
             </motion.div>
 
-            {/* Name with Fluid Gradient */}
+            {/* Name with Fluid Animated Gradient */}
             <motion.h1 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -75,12 +75,12 @@ export const Hero: React.FC<HeroProps> = ({ onPrintCV }) => {
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-[1.12]"
             >
               Hi, I'm <br />
-              <span className="bg-gradient-to-r from-brand-600 via-cyan-600 to-purple-600 dark:from-cyan-400 dark:via-brand-300 dark:to-purple-300 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-cyan-500 via-indigo-500 to-purple-500 dark:from-cyan-400 dark:via-brand-300 dark:to-purple-300 bg-[length:200%_auto] animate-gradient bg-clip-text text-transparent">
                 {profile.name}
               </span>
             </motion.h1>
 
-            {/* Dynamic Title Switcher with Fluid Motion Fade */}
+            {/* Dynamic Title Switcher with Lively Cursor Pulse */}
             <motion.div 
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -88,7 +88,7 @@ export const Hero: React.FC<HeroProps> = ({ onPrintCV }) => {
               className="h-10 mt-3 flex items-center"
             >
               <span className="text-lg sm:text-xl font-semibold text-slate-700 dark:text-slate-300 flex items-center gap-2">
-                <Code2 className="w-5 h-5 text-cyan-600 dark:text-cyan-400" />
+                <Code2 className="w-5 h-5 text-cyan-600 dark:text-cyan-400 animate-bounce-subtle" />
                 <AnimatePresence mode="wait">
                   <motion.span 
                     key={currentTitleIndex}
@@ -96,9 +96,10 @@ export const Hero: React.FC<HeroProps> = ({ onPrintCV }) => {
                     animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
                     exit={{ opacity: 0, y: -8, filter: 'blur(4px)' }}
                     transition={{ duration: 0.4, ease: fluidEase }}
-                    className="text-cyan-600 dark:text-cyan-400 font-mono"
+                    className="text-cyan-600 dark:text-cyan-400 font-mono flex items-center gap-1.5"
                   >
-                    {profile.titles[currentTitleIndex]}
+                    <span>{profile.titles[currentTitleIndex]}</span>
+                    <span className="w-2 h-4 bg-cyan-400 animate-pulse inline-block" />
                   </motion.span>
                 </AnimatePresence>
               </span>
@@ -248,14 +249,22 @@ export const Hero: React.FC<HeroProps> = ({ onPrintCV }) => {
           >
             <div className="relative w-72 sm:w-80 md:w-96 group">
               
-              {/* Outer PGR Holographic Rotating Reticle Ring 1 (Clockwise) */}
+              {/* Outer PGR Holographic Rotating Reticle Ring 1 (Clockwise) with Orbiting Beacon */}
               <div className="absolute -inset-8 pointer-events-none flex items-center justify-center">
-                <div className="w-full h-full rounded-full border border-dashed border-cyan-500/25 dark:border-cyan-400/30 animate-spin-slow" />
+                <div className="w-full h-full rounded-full border border-dashed border-cyan-500/30 dark:border-cyan-400/40 animate-spin-slow relative">
+                  {/* Orbiting Beacon Node 1 */}
+                  <span className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-cyan-400 shadow-[0_0_10px_#00f0ff] animate-ping" />
+                  {/* Orbiting Beacon Node 2 */}
+                  <span className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-2 h-2 rounded-full bg-purple-400 shadow-[0_0_8px_#8b5cf6]" />
+                </div>
               </div>
 
               {/* Holographic Counter-Rotating Ring 2 with Ticks (Counter-Clockwise) */}
               <div className="absolute -inset-14 pointer-events-none hidden sm:flex items-center justify-center">
-                <div className="w-full h-full rounded-full border border-dotted border-purple-500/20 dark:border-purple-400/25 animate-spin-reverse" />
+                <div className="w-full h-full rounded-full border border-dotted border-purple-500/30 dark:border-purple-400/35 animate-spin-reverse relative">
+                  {/* Orbiting Beacon Node 3 */}
+                  <span className="absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-cyan-300 shadow-[0_0_8px_#00f0ff]" />
+                </div>
               </div>
 
               {/* Outer decorative ambient glow */}
@@ -277,7 +286,7 @@ export const Hero: React.FC<HeroProps> = ({ onPrintCV }) => {
                   <img
                     src={profile.avatar}
                     alt={profile.name}
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
+                    className="w-full h-full object-cover object-[center_15%] group-hover:scale-105 transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent opacity-80" />
                   
