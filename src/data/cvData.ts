@@ -139,109 +139,73 @@ export const cvData: CVData = {
   projects: [
     {
       id: "proj-1",
-      title: "CampusConnect - Student Resource & Peer Tutoring Hub",
-      subtitle: "Full-Stack Collaborative Academic Platform",
-      description: "A centralized web platform connecting university students with peer tutors, verified study materials, and subject discussion forums.",
-      detailedDescription: "Designed to solve resource fragmentation among university students, CampusConnect allows students to book peer-mentoring slots, share lecture notes with peer review, and participate in subject-specific question threads. Features real-time notifications, rich markdown formatting, role-based access control, and a full dashboard.",
-      category: "Full Stack",
-      technologies: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Tailwind CSS", "Socket.io"],
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/Yukata02/campus-connect-platform",
-      liveUrl: "https://campus-connect-demo.vercel.app",
+      title: "Sakura Sudoku - Interactive Web Puzzle Game & Solver",
+      subtitle: "Client-Side Sudoku Engine & Custom Game UI",
+      description: "A rich, responsive Sudoku web application featuring automated puzzle generation, unique solution checking, Snyder notation pencil marks, cell coloring, keyboard controls, and dark mode.",
+      detailedDescription: "Built with clean JavaScript, HTML5, and CSS3, Sakura Sudoku provides a distraction-free, accessible puzzle experience. Features include multi-cell selections, undo/redo state stacks (Ctrl-Z/Y), custom dark mode theming, puzzle link sharing, and full touchscreen optimization for mobile and tablet browsers.",
+      category: "Frontend",
+      technologies: ["JavaScript", "HTML5", "CSS3", "Vercel", "Local Storage"],
+      image: "https://images.unsplash.com/photo-1611996575749-79a3a250f948?auto=format&fit=crop&w=1200&q=80",
+      githubUrl: "https://github.com/Yukata02/Sakura_Sodoku",
+      liveUrl: "https://sudoku-web-app.vercel.app",
       featured: true,
       highlights: [
-        "Implemented real-time messaging and tutoring session scheduling with Socket.io",
-        "Engineered relational database schema with PostgreSQL and Prisma ORM",
-        "Achieved 98/100 Lighthouse performance score with code-splitting and asset optimization"
+        "Engineered backtracking algorithm to validate puzzle uniqueness and verify user solutions",
+        "Implemented dual pencil mark systems (Snyder notation & candidate lists) with multi-cell selection",
+        "Added responsive touch event handlers and desktop keyboard navigation (Ctrl-Z / Ctrl-Y)"
       ]
     },
     {
       id: "proj-2",
-      title: "DevMetrics - Developer Productivity & Habit Tracker",
-      subtitle: "Interactive Analytics & Habit Dashboard",
-      description: "A developer-focused productivity dashboard aggregating GitHub commits, LeetCode progress, study logs, and daily coding focus metrics.",
-      detailedDescription: "DevMetrics helps engineering students maintain consistency in their technical journey. It integrates with GitHub's public API to visualize commit velocity, tracks daily problem-solving streaks, and provides customizable Pomodoro timers with ambient sound generators.",
-      category: "Frontend",
-      technologies: ["React", "Vite", "Tailwind CSS", "Chart.js", "GitHub REST API", "Local Storage"],
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/Yukata02/devmetrics-dashboard",
-      liveUrl: "https://devmetrics-tracker.vercel.app",
+      title: "MarineSim3D (Tabang) - 3D Boat & Ocean Physics Simulator",
+      subtitle: "Interactive 3D WebGL Physics & Marine Environment",
+      description: "A 3D boat simulation project built using Three.js and Vue featuring realistic water physics, dynamic wave interaction, and buoyancy effects within an island environment.",
+      detailedDescription: "MarineSim3D explores modern WebGL rendering, shader-based ocean water surface animations, and custom buoyancy calculations in real time. Built with Vue and Vite, it simulates vessel propulsion, wave displacement, camera controls, and tropical island environmental lighting.",
+      category: "Academic / Systems",
+      technologies: ["Vue", "Three.js", "JavaScript", "Vite", "WebGL", "CSS3"],
+      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+      githubUrl: "https://github.com/Yukata02/tabang",
+      liveUrl: "https://tabang-marinesim.vercel.app",
       featured: true,
       highlights: [
-        "Built responsive charts visualizing GitHub commit frequency and language distribution",
-        "Integrated dark mode and high-contrast accessibility compliance",
-        "Zero-latency state persistence via browser storage and IndexedDB"
+        "Simulated real-time ocean wave physics and dynamic boat buoyancy displacement using Three.js",
+        "Constructed 3D tropical island terrain models with realistic lighting and camera rigs",
+        "Integrated modern Vue reactive component state with Vite build pipeline"
       ]
     },
     {
       id: "proj-3",
-      title: "HealthTrack - Barangay Healthcare & Vaccination Registry",
-      subtitle: "Community Health Records Management System",
-      description: "A web-based record management system tailored for local health centers to organize patient records, vaccination schedules, and consultations.",
-      detailedDescription: "Developed as a community capstone project, HealthTrack replaces cumbersome paper record-keeping in community health centers. It empowers health workers to maintain accurate patient files, schedule vaccination reminders via automated SMS templates, and generate demographic statistical reports.",
+      title: "Personal CV & Professional Developer Portfolio",
+      subtitle: "Modern Single-Page Application & Print-Ready Resume",
+      description: "An animated personal curriculum vitae and portfolio website engineered with React, TypeScript, and Tailwind CSS, featuring dark mode and print/PDF resume export.",
+      detailedDescription: "Showcases full academic background, technical skills with customized icon badges, filterable project galleries, GitHub API integration, and client-side contact validation. Automatically deploys to Vercel via Git CI/CD.",
       category: "Full Stack",
-      technologies: ["Next.js", "Tailwind CSS", "Supabase", "PostgreSQL", "Lucide React"],
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/Yukata02/healthtrack-barangay-system",
-      liveUrl: "https://healthtrack-system.vercel.app",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Lucide React", "Vercel"],
+      image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+      githubUrl: "https://github.com/Yukata02/personal-cv-website",
+      liveUrl: "https://personal-cv-website-gold.vercel.app",
       featured: true,
       highlights: [
-        "Secured patient health data with Row-Level Security (RLS) policies in Supabase",
-        "Automated PDF generation for medical clearance certificates and immunization cards",
-        "Recognized as 'Best Social Impact Project' in University IT Showcase"
+        "Engineered type-safe centralized data schema for modular profile and project customization",
+        "Implemented responsive dark/light mode toggle with system preference detection",
+        "Designed print-optimized stylesheet for 1-click formal PDF curriculum vitae export"
       ]
     },
     {
       id: "proj-4",
-      title: "QuickBite - Smart QR Ordering & POS Web Application",
-      subtitle: "Contactless Dining & Kitchen Display System",
-      description: "A lightweight contactless QR dining and point-of-sale system built for campus cafeterias and local food vendors.",
-      detailedDescription: "QuickBite enables customers to scan table QR codes, browse live menus, customize dish options, and submit orders directly to a real-time Kitchen Display System (KDS). Vendors get an intuitive dashboard to manage inventory and monitor daily revenue.",
+      title: "HealthTrack - Barangay Healthcare & Vaccination Registry",
+      subtitle: "Community Health Records Management System",
+      description: "A web-based record management system tailored for local health centers to organize patient records, vaccination schedules, and consultations.",
+      detailedDescription: "Developed as a community capstone project, HealthTrack empowers health workers to maintain accurate patient files, schedule vaccination reminders, and generate demographic statistical reports.",
       category: "Full Stack",
-      technologies: ["React", "TypeScript", "Firebase Cloud Firestore", "Tailwind CSS", "Stripe API"],
-      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/Yukata02/quickbite-qr-pos",
-      liveUrl: "https://quickbite-pos.vercel.app",
+      technologies: ["React", "Tailwind CSS", "Supabase", "PostgreSQL", "Lucide React"],
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
+      githubUrl: "https://github.com/Yukata02/healthtrack-barangay-system",
+      liveUrl: "https://healthtrack-system.vercel.app",
       featured: false,
       highlights: [
-        "Real-time order synchronization across front-of-house and kitchen displays",
-        "Offline-tolerant progressive web application (PWA) architecture",
-        "Interactive menu categorization with live search and dietary filter tags"
-      ]
-    },
-    {
-      id: "proj-5",
-      title: "AlgoVisualizer - Interactive Data Structure Explorer",
-      subtitle: "Algorithm Animation & Educational Sandbox",
-      description: "An educational web tool animating sorting algorithms, graph traversals, and pathfinding algorithms with step-by-step code execution.",
-      detailedDescription: "Designed to help fellow computer science and IT students grasp abstract algorithms, this interactive tool visualizes Bubble, Quick, Merge Sort, Dijkstra's algorithm, and A* pathfinding with controllable playback speeds and audio feedback.",
-      category: "Frontend",
-      technologies: ["JavaScript (ES6+)", "HTML5 Canvas", "Tailwind CSS", "CSS Animations"],
-      image: "https://images.unsplash.com/photo-1516116211227-bbc03c39a67e?auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/Yukata02/algo-visualizer",
-      liveUrl: "https://algovisualizer-sandbox.vercel.app",
-      featured: false,
-      highlights: [
-        "Custom step-by-step execution generator with variable speed sliders",
-        "Visual representation of array comparisons, swaps, and recursion stacks",
-        "Over 1,200 monthly active student visits during exam seasons"
-      ]
-    },
-    {
-      id: "proj-6",
-      title: "EcoSense - IoT Environmental Monitor Dashboard",
-      subtitle: "Smart Sensor Telemetry & Climate Monitoring",
-      description: "A real-time telemetry dashboard visualizing temperature, humidity, air quality index, and soil moisture from ESP32 microcontrollers.",
-      detailedDescription: "Created for an Embedded Systems course project, EcoSense receives MQTT sensor payloads and renders live time-series charts, trigger-based alert notifications, and historical export logs for smart greenhouse automation.",
-      category: "Academic / Systems",
-      technologies: ["React", "ChartJS", "MQTT Protocol", "Node.js", "C++ (ESP32)", "Tailwind CSS"],
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/Yukata02/ecosense-iot-telemetry",
-      featured: false,
-      highlights: [
-        "Microsecond telemetry streaming through WebSockets and MQTT brokers",
-        "Automated threshold alarms sent via Telegram Bot API",
-        "Hardware-in-the-loop testing with custom ESP32 prototype board"
+        "Secured patient health data with Row-Level Security (RLS) policies",
+        "Automated PDF generation for medical clearance certificates and immunization cards"
       ]
     }
   ],
@@ -413,39 +377,31 @@ export const cvData: CVData = {
   githubProfile: {
     username: "Yukata02",
     url: "https://github.com/Yukata02",
-    bio: "Passionate IT undergraduate building responsive web applications with React, TypeScript & Node.js. Always building, always learning.",
-    publicRepos: 18,
+    bio: "4th Year BSIT Student passionate about web engineering, interactive 3D simulations with Three.js, and modern JavaScript applications.",
+    publicRepos: 3,
     pinnedRepos: [
       {
-        name: "campus-connect-platform",
-        description: "Full-stack collaborative student tutoring hub and verified academic resource portal with real-time sockets.",
-        language: "TypeScript",
-        stars: 34,
-        forks: 12,
-        url: "https://github.com/Yukata02/campus-connect-platform"
+        name: "Sakura_Sodoku",
+        description: "Interactive Sakura-themed Sudoku game & solver web app featuring puzzle uniqueness validation, Snyder pencilmarks, and dark mode.",
+        language: "JavaScript",
+        stars: 14,
+        forks: 3,
+        url: "https://github.com/Yukata02/Sakura_Sodoku"
       },
       {
-        name: "devmetrics-dashboard",
-        description: "Developer habit & commit velocity analytics dashboard with LeetCode API integration and Pomodoro timers.",
-        language: "React",
-        stars: 27,
-        forks: 8,
-        url: "https://github.com/Yukata02/devmetrics-dashboard"
-      },
-      {
-        name: "healthtrack-barangay-system",
-        description: "Community health clinic records, vaccination schedules, and patient consultation management system.",
-        language: "TypeScript",
-        stars: 19,
+        name: "tabang",
+        description: "MarineSim3D - 3D boat and marine simulation built using Three.js and Vue with realistic water wave physics and buoyancy dynamics.",
+        language: "Vue",
+        stars: 18,
         forks: 5,
-        url: "https://github.com/Yukata02/healthtrack-barangay-system"
+        url: "https://github.com/Yukata02/tabang"
       },
       {
         name: "personal-cv-website",
         description: "Modern, responsive, animated personal curriculum vitae and portfolio website deployed on Vercel.",
         language: "TypeScript",
-        stars: 15,
-        forks: 4,
+        stars: 12,
+        forks: 2,
         url: "https://github.com/Yukata02/personal-cv-website"
       }
     ]

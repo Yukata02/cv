@@ -11,6 +11,7 @@ import {
   CheckCircle2
 } from 'lucide-react';
 import { cvData } from '../data/cvData';
+import { TechIcon } from './TechIcon';
 
 export const Skills: React.FC = () => {
   const { skillCategories } = cvData;
@@ -61,7 +62,7 @@ export const Skills: React.FC = () => {
             Skills Learned
           </h2>
           <p className="mt-4 text-base text-slate-600 dark:text-slate-400">
-            A comprehensive list of programming languages, frameworks, databases, developer tools, and professional practices learned through BSIT coursework and practical projects.
+            A visual overview of technologies, programming languages, libraries, and tools learned and practiced throughout BSIT studies.
           </p>
         </div>
 
@@ -99,7 +100,7 @@ export const Skills: React.FC = () => {
 
         </div>
 
-        {/* Skills Cards Grid - Badge / List View (No Progress Meters) */}
+        {/* Skills Cards Grid - Icon-Based Grid Display */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredCategories.map((category) => (
             <div
@@ -122,15 +123,24 @@ export const Skills: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Skills Learned Badges List */}
-                <div className="flex flex-wrap gap-2 mt-5">
+                {/* Individual Skill Items with Technology Icons */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mt-5">
                   {category.skills.map((skill) => (
                     <div
                       key={skill.name}
-                      className="group inline-flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-medium bg-slate-50 dark:bg-slate-800/70 text-slate-800 dark:text-slate-200 border border-slate-200/70 dark:border-slate-700/70 hover:border-brand-500/60 hover:bg-brand-50/50 dark:hover:bg-slate-800 transition-all shadow-xs"
+                      className="group flex items-center gap-2.5 p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/60 dark:border-slate-800 hover:border-brand-500/60 hover:bg-brand-50/30 dark:hover:bg-slate-800 transition-all shadow-xs"
                     >
-                      <CheckCircle2 className="w-3.5 h-3.5 text-brand-600 dark:text-brand-400 shrink-0" />
-                      <span>{skill.name}</span>
+                      <div className="w-8 h-8 rounded-lg bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-700/80 flex items-center justify-center shrink-0 shadow-xs group-hover:scale-110 transition-transform">
+                        <TechIcon name={skill.name} className="w-4 h-4" />
+                      </div>
+                      <div className="min-w-0">
+                        <span className="block text-xs font-semibold text-slate-800 dark:text-slate-200 group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors truncate">
+                          {skill.name}
+                        </span>
+                        <span className="block text-[10px] text-slate-400">
+                          Learned Skill
+                        </span>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -138,9 +148,9 @@ export const Skills: React.FC = () => {
 
               {/* Skill Count Footer */}
               <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
-                <span>{category.skills.length} skills learned</span>
+                <span>{category.skills.length} skills in {category.category.split(' ')[0]}</span>
                 <span className="text-emerald-500 font-medium flex items-center gap-1">
-                  <CheckCircle2 className="w-3 h-3" /> Learned & Applied
+                  <CheckCircle2 className="w-3.5 h-3.5" /> Coursework Verified
                 </span>
               </div>
             </div>
