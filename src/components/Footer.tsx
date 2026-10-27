@@ -42,7 +42,7 @@ export const Footer: React.FC = () => {
             <motion.a
               whileHover={{ scale: 1.1, rotate: 3 }}
               whileTap={{ scale: 0.95 }}
-              href={`${cvData.githubProfile.url}/personal-cv-website`}
+              href={`${cvData.githubProfile.url}/cv`}
               target="_blank"
               rel="noreferrer"
               className="p-2.5 rounded-xl border border-slate-200 dark:border-cyan-500/30 text-slate-600 dark:text-cyan-300 hover:text-cyan-400 transition-colors hud-card"
