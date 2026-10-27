@@ -19,6 +19,7 @@
 - **Location:** Panabo City, Davao Del Norte
 - **Email:** hechanovaj1000@gmail.com
 - **Contact Number:** 09926797601
+- **GitHub Profile:** [https://github.com/Yukata02](https://github.com/Yukata02)
 
 ---
 
@@ -30,7 +31,7 @@ It fulfills all rubric criteria including:
 1. **Personal Profile** (Full Name, Career Titles, Professional Avatar, Tagline, Introduction, Career Objective)
 2. **Basic Information** (Location, Verified Email, Contact Number, Personal Narrative, Languages, Career Interests)
 3. **Education** (University BSIT Degree, Senior High School TVL-ICT, Coursework & Competencies)
-4. **Technical & Professional Skills** (Interactive category tabs, search filter, animated proficiency indicators)
+4. **Technical & Professional Skills** (Interactive category tabs, search filter, clean competencies learned list)
 5. **Projects Showcase** (Filtered by category, interactive preview modal, GitHub source code, live demo links)
 6. **GitHub Profile Spotlight** (Public repositories metric, pinned repositories with live stars & fork counts)
 7. **LinkedIn Profile & Social Media Links** (LinkedIn, GitHub, Facebook, Instagram, direct mailto channels)

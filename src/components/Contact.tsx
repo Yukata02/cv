@@ -105,7 +105,7 @@ export const Contact: React.FC = () => {
                 Let's Build Together
               </h3>
               <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-                I am actively seeking software engineering and web development internship roles starting Mid 2027. Available for technical discussions, code reviews, and student hackathons.
+                I am actively seeking software engineering and web development opportunities. Open for technical discussions, collaboration, and building impactful digital solutions.
               </p>
 
               {/* Quick Contact Items */}

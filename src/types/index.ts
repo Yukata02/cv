@@ -11,7 +11,7 @@ export interface BasicInfo {
   email: string;
   phone: string;
   location: string;
-  availability: string;
+  availability?: string;
   languages: string[];
   interests: string[];
   description: string;
@@ -37,8 +37,8 @@ export interface SkillCategory {
   description: string;
   skills: {
     name: string;
-    level: number; // 0 - 100
-    experience: string;
+    level?: number;
+    experience?: string;
     icon?: string;
     featured?: boolean;
   }[];

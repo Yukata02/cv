@@ -44,13 +44,6 @@ export const Hero: React.FC<HeroProps> = ({ onPrintCV }) => {
           {/* Left Column: Text & Hero Content */}
           <div className="lg:col-span-7 flex flex-col items-start text-left">
             
-            {/* Status Badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-brand-50 text-brand-700 border border-brand-200/80 dark:bg-brand-950/60 dark:text-brand-300 dark:border-brand-800/80 mb-6 shadow-sm">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
-              <span className="w-2 h-2 rounded-full bg-emerald-500 -ml-4" />
-              <span>{basicInfo.availability}</span>
-            </div>
-
             {/* Name */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-[1.15]">
               Hi, I'm <br />
