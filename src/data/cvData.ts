@@ -147,7 +147,7 @@ export const cvData: CVData = {
       technologies: ["JavaScript", "HTML5", "CSS3", "Vercel", "Local Storage"],
       image: "https://images.unsplash.com/photo-1611996575749-79a3a250f948?auto=format&fit=crop&w=1200&q=80",
       githubUrl: "https://github.com/Yukata02/Sakura_Sodoku",
-      liveUrl: "https://sudoku-web-app.vercel.app",
+      liveUrl: "https://sodoku-two.vercel.app/",
       featured: true,
       highlights: [
         "Engineered backtracking algorithm to validate puzzle uniqueness and verify user solutions",
