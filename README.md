@@ -10,19 +10,6 @@
 
 ---
 
-## 👤 Student Information
-
-- **Student Name:** Jairus Hechanova
-- **Degree Program:** Bachelor of Science in Information Technology (BSIT)
-- **Year Level:** 4th Year Undergraduate
-- **Specialization / Career Title:** Aspiring Full Stack Web Developer / Future IT Professional
-- **Location:** Panabo City, Davao Del Norte
-- **Email:** hechanovaj1000@gmail.com
-- **Contact Number:** 09926797601
-- **GitHub Profile:** [https://github.com/Yukata02](https://github.com/Yukata02)
-
----
-
 ## 📌 Project Overview
 
 This web project is a modern, responsive, and animated personal **Curriculum Vitae (CV) & Developer Portfolio** website designed for academic assessment, internship applications, freelance opportunities, and professional engineering roles.
@@ -60,22 +47,23 @@ It fulfills all rubric criteria including:
 ```text
 personal-cv-website/
 ├── public/
-│   └── favicon.svg              # Developer code icon favicon
+│   ├── favicon.svg              # Developer code icon favicon
+│   └── profile.jpg              # Professional profile portrait
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.tsx           # Responsive sticky navigation & theme toggle
 │   │   ├── Hero.tsx             # Profile hero, dynamic titles, career objective
 │   │   ├── BasicInfo.tsx        # Personal narrative, copyable email & contact
-│   │   ├── Education.tsx        # Timeline with university, high school & honors
-│   │   ├── Skills.tsx           # Category tabs, skill search & animated bars
+│   │   ├── Education.tsx        # Timeline with university and secondary education
+│   │   ├── Skills.tsx           # Category tabs, skill search & verified tech icons
 │   │   ├── Projects.tsx         # Filterable project grid with case previews
 │   │   ├── ProjectModal.tsx     # Deep-dive interactive modal for project cases
 │   │   ├── GitHubShowcase.tsx   # Pinned GitHub repositories & git statistics
-│   │   ├── Experience.tsx       # Leadership, freelance, academic & volunteer roles
-│   │   ├── Achievements.tsx     # Certifications, hackathon trophies & workshops
 │   │   ├── Contact.tsx          # Direct message form with feedback & social links
 │   │   ├── Footer.tsx           # Back to top button, copyright & tech badge
-│   │   └── PrintableCV.tsx      # Formal print/PDF resume layout
+│   │   ├── PrintableCV.tsx      # Formal print/PDF resume layout
+│   │   ├── CyberParticles.tsx   # Interactive animated background particle field
+│   │   └── TacticalHudOverlay.tsx # HUD equalizer, laser progress & coordinate tracker
 │   ├── context/
 │   │   └── ThemeContext.tsx     # Dark/light mode theme provider
 │   ├── data/
