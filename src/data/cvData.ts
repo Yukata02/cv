@@ -2,7 +2,7 @@ import { CVData } from '../types';
 
 export const cvData: CVData = {
   profile: {
-    name: "Alex V. Rivera",
+    name: "Jairus Hechanova",
     titles: [
       "Information Technology Student",
       "Aspiring Full Stack Web Developer",
@@ -16,9 +16,9 @@ export const cvData: CVData = {
   },
 
   basicInfo: {
-    email: "alex.rivera.dev@gmail.com",
-    phone: "+63 (917) 555-0198",
-    location: "Metro Manila, Philippines",
+    email: "hechanovaj1000@gmail.com",
+    phone: "09926797601",
+    location: "Panabo City, Davao Del Norte",
     availability: "Available for Mid 2027 Internship / Part-time / Freelance",
     languages: ["English (Professional Working)", "Filipino (Native / Bilingual)"],
     interests: [
@@ -37,8 +37,8 @@ export const cvData: CVData = {
       id: "edu-1",
       type: "university",
       degree: "Bachelor of Science in Information Technology (BSIT)",
-      institution: "Technological Institute of the Philippines",
-      location: "Metro Manila, Philippines",
+      institution: "Davao del Norte State College",
+      location: "Panabo City, Davao Del Norte",
       period: "2024 - Present (Expected Graduation: 2028)",
       currentYear: "3rd Year Undergraduate",
       gpa: "1.25 / 1.00 (General Weighted Average - Dean's List)",
@@ -61,8 +61,8 @@ export const cvData: CVData = {
       id: "edu-2",
       type: "high_school",
       degree: "Senior High School - Technical-Vocational-Livelihood (TVL) ICT Strand",
-      institution: "City Science & Technology High School",
-      location: "Metro Manila, Philippines",
+      institution: "Panabo City National High School",
+      location: "Panabo City, Davao Del Norte",
       period: "2022 - 2024",
       honors: [
         "Graduated with High Honors (Average: 96.5%)",
@@ -158,7 +158,7 @@ export const cvData: CVData = {
       category: "Full Stack",
       technologies: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Tailwind CSS", "Socket.io"],
       image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/alexrivera-dev/campus-connect-platform",
+      githubUrl: "https://github.com/jairus-hechanova/campus-connect-platform",
       liveUrl: "https://campus-connect-demo.vercel.app",
       featured: true,
       highlights: [
@@ -176,7 +176,7 @@ export const cvData: CVData = {
       category: "Frontend",
       technologies: ["React", "Vite", "Tailwind CSS", "Chart.js", "GitHub REST API", "Local Storage"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/alexrivera-dev/devmetrics-dashboard",
+      githubUrl: "https://github.com/jairus-hechanova/devmetrics-dashboard",
       liveUrl: "https://devmetrics-tracker.vercel.app",
       featured: true,
       highlights: [
@@ -194,7 +194,7 @@ export const cvData: CVData = {
       category: "Full Stack",
       technologies: ["Next.js", "Tailwind CSS", "Supabase", "PostgreSQL", "Lucide React"],
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/alexrivera-dev/healthtrack-barangay-system",
+      githubUrl: "https://github.com/jairus-hechanova/healthtrack-barangay-system",
       liveUrl: "https://healthtrack-system.vercel.app",
       featured: true,
       highlights: [
@@ -212,7 +212,7 @@ export const cvData: CVData = {
       category: "Full Stack",
       technologies: ["React", "TypeScript", "Firebase Cloud Firestore", "Tailwind CSS", "Stripe API"],
       image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/alexrivera-dev/quickbite-qr-pos",
+      githubUrl: "https://github.com/jairus-hechanova/quickbite-qr-pos",
       liveUrl: "https://quickbite-pos.vercel.app",
       featured: false,
       highlights: [
@@ -230,7 +230,7 @@ export const cvData: CVData = {
       category: "Frontend",
       technologies: ["JavaScript (ES6+)", "HTML5 Canvas", "Tailwind CSS", "CSS Animations"],
       image: "https://images.unsplash.com/photo-1516116211227-bbc03c39a67e?auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/alexrivera-dev/algo-visualizer",
+      githubUrl: "https://github.com/jairus-hechanova/algo-visualizer",
       liveUrl: "https://algovisualizer-sandbox.vercel.app",
       featured: false,
       highlights: [
@@ -248,7 +248,7 @@ export const cvData: CVData = {
       category: "Academic / Systems",
       technologies: ["React", "ChartJS", "MQTT Protocol", "Node.js", "C++ (ESP32)", "Tailwind CSS"],
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/alexrivera-dev/ecosense-iot-telemetry",
+      githubUrl: "https://github.com/jairus-hechanova/ecosense-iot-telemetry",
       featured: false,
       highlights: [
         "Microsecond telemetry streaming through WebSockets and MQTT brokers",
@@ -392,39 +392,39 @@ export const cvData: CVData = {
   socials: [
     {
       platform: "GitHub",
-      url: "https://github.com/alexrivera-dev",
-      username: "@alexrivera-dev",
+      url: "https://github.com/jairus-hechanova",
+      username: "@jairus-hechanova",
       icon: "Github"
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/alexrivera-dev",
-      username: "alexrivera-dev",
+      url: "https://linkedin.com/in/jairus-hechanova",
+      username: "jairus-hechanova",
       icon: "Linkedin"
     },
     {
       platform: "Facebook",
-      url: "https://facebook.com/alexrivera.dev",
-      username: "alexrivera.dev",
+      url: "https://facebook.com/jairus.hechanova",
+      username: "jairus.hechanova",
       icon: "Facebook"
     },
     {
       platform: "Instagram",
-      url: "https://instagram.com/alexrivera.codes",
-      username: "@alexrivera.codes",
+      url: "https://instagram.com/jairus.hechanova",
+      username: "@jairus.hechanova",
       icon: "Instagram"
     },
     {
       platform: "Email",
-      url: "mailto:alex.rivera.dev@gmail.com",
-      username: "alex.rivera.dev@gmail.com",
+      url: "mailto:hechanovaj1000@gmail.com",
+      username: "hechanovaj1000@gmail.com",
       icon: "Mail"
     }
   ],
 
   githubProfile: {
-    username: "alexrivera-dev",
-    url: "https://github.com/alexrivera-dev",
+    username: "jairus-hechanova",
+    url: "https://github.com/jairus-hechanova",
     bio: "Passionate IT undergraduate building responsive web applications with React, TypeScript & Node.js. Always building, always learning.",
     publicRepos: 18,
     pinnedRepos: [
@@ -434,7 +434,7 @@ export const cvData: CVData = {
         language: "TypeScript",
         stars: 34,
         forks: 12,
-        url: "https://github.com/alexrivera-dev/campus-connect-platform"
+        url: "https://github.com/jairus-hechanova/campus-connect-platform"
       },
       {
         name: "devmetrics-dashboard",
@@ -442,7 +442,7 @@ export const cvData: CVData = {
         language: "React",
         stars: 27,
         forks: 8,
-        url: "https://github.com/alexrivera-dev/devmetrics-dashboard"
+        url: "https://github.com/jairus-hechanova/devmetrics-dashboard"
       },
       {
         name: "healthtrack-barangay-system",
@@ -450,7 +450,7 @@ export const cvData: CVData = {
         language: "TypeScript",
         stars: 19,
         forks: 5,
-        url: "https://github.com/alexrivera-dev/healthtrack-barangay-system"
+        url: "https://github.com/jairus-hechanova/healthtrack-barangay-system"
       },
       {
         name: "personal-cv-website",
@@ -458,7 +458,7 @@ export const cvData: CVData = {
         language: "TypeScript",
         stars: 15,
         forks: 4,
-        url: "https://github.com/alexrivera-dev/personal-cv-website"
+        url: "https://github.com/jairus-hechanova/personal-cv-website"
       }
     ]
   }

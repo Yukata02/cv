@@ -12,11 +12,13 @@
 
 ## 👤 Student Information
 
-- **Student Name:** Alex V. Rivera
+- **Student Name:** Jairus Hechanova
 - **Degree Program:** Bachelor of Science in Information Technology (BSIT)
 - **Year Level:** 3rd Year Undergraduate
 - **Specialization / Career Title:** Aspiring Full Stack Web Developer / Future IT Professional
-- **Institution:** Technological Institute of the Philippines
+- **Location:** Panabo City, Davao Del Norte
+- **Email:** hechanovaj1000@gmail.com
+- **Contact Number:** 09926797601
 
 ---
 

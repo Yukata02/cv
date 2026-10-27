@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
           {/* Back to Top & Repo Link */}
           <div className="flex items-center gap-3">
             <a
-              href="https://github.com/alexrivera-dev/personal-cv-website"
+              href={`${cvData.githubProfile.url}/personal-cv-website`}
               target="_blank"
               rel="noreferrer"
               className="p-2.5 rounded-xl border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:text-brand-600 dark:hover:text-brand-400 transition-colors"
