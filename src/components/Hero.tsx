@@ -94,7 +94,7 @@ export const Hero: React.FC<HeroProps> = ({ onPrintCV }) => {
               <span className="hidden sm:inline">•</span>
               <div className="flex items-center gap-1.5">
                 <Briefcase className="w-4 h-4 text-indigo-500" />
-                <span>BSIT Undergraduate</span>
+                <span>4th Year BSIT Student</span>
               </div>
             </div>
 
@@ -192,7 +192,7 @@ export const Hero: React.FC<HeroProps> = ({ onPrintCV }) => {
               <div className="absolute -top-4 -right-4 bg-white/90 dark:bg-slate-800/90 backdrop-blur-md border border-slate-200 dark:border-slate-700 px-3.5 py-2 rounded-2xl shadow-lg flex items-center gap-2 animate-bounce-subtle">
                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
                 <span className="text-xs font-semibold text-slate-800 dark:text-slate-200">
-                  Dean's Lister
+                  4th Year BSIT
                 </span>
               </div>
 

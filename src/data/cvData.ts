@@ -11,7 +11,7 @@ export const cvData: CVData = {
     ],
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
     tagline: "Building intuitive, modern digital experiences and scalable web solutions.",
-    summary: "Dedicated 3rd-year Bachelor of Science in Information Technology student with a strong passion for full-stack web engineering, human-centered UI/UX design, and cloud technologies. Proven track record of academic excellence, hands-on programming coursework, leadership in student developer organizations, and developing functional web applications. Eager to contribute technical skills and collaborative problem-solving to high-impact internship and development opportunities.",
+    summary: "Dedicated 4th-year Bachelor of Science in Information Technology student with a strong passion for full-stack web engineering, human-centered UI/UX design, and cloud technologies. Proven track record of hands-on programming coursework, leadership in student developer organizations, and developing functional web applications. Eager to contribute technical skills and collaborative problem-solving to high-impact internship and development opportunities.",
     objective: "To secure a challenging Software Developer or Web Development Internship where I can apply my foundation in React, TypeScript, Node.js, and modern database systems to solve real-world problems, accelerate software delivery, and grow under experienced engineering mentorship."
   },
 
@@ -39,14 +39,8 @@ export const cvData: CVData = {
       degree: "Bachelor of Science in Information Technology (BSIT)",
       institution: "Davao del Norte State College",
       location: "Panabo City, Davao Del Norte",
-      period: "2024 - Present (Expected Graduation: 2028)",
-      currentYear: "3rd Year Undergraduate",
-      gpa: "1.25 / 1.00 (General Weighted Average - Dean's List)",
-      honors: [
-        "President's Honor List (1st & 2nd Year)",
-        "Top Performer in Web Systems & Technologies",
-        "Academic Excellence Grant Recipient"
-      ],
+      period: "2023 - Present (Expected Graduation: 2027)",
+      currentYear: "4th Year Undergraduate",
       description: "Focusing on advanced web technologies, database administration, systems analysis and design, object-oriented programming, and cybersecurity fundamentals.",
       courses: [
         "Web Systems and Technologies",
@@ -61,15 +55,10 @@ export const cvData: CVData = {
       id: "edu-2",
       type: "high_school",
       degree: "Senior High School - Technical-Vocational-Livelihood (TVL) ICT Strand",
-      institution: "Panabo City National High School",
+      institution: "San Vicente National High School",
       location: "Panabo City, Davao Del Norte",
-      period: "2022 - 2024",
-      honors: [
-        "Graduated with High Honors (Average: 96.5%)",
-        "Best in Computer Programming Capstone Award",
-        "National Certificate II (NC II) in Computer Systems Servicing"
-      ],
-      description: "Graduated with honors specializing in computer programming fundamentals, web design, networking essentials, and hardware diagnostics.",
+      period: "2021 - 2023",
+      description: "Graduated specializing in computer programming fundamentals, web design, networking essentials, and hardware diagnostics.",
       courses: [
         "Computer Programming 1 & 2",
         "Web Development Fundamentals",
@@ -328,7 +317,7 @@ export const cvData: CVData = {
       issuer: "Meta / Coursera",
       date: "September 2025",
       type: "Certificate",
-      credentialUrl: "https://coursera.org/verify/professional-cert/ALEX-RIVERA-META",
+      credentialUrl: "https://coursera.org/verify/professional-cert/JAIRUS-HECHANOVA-META",
       description: "Comprehensive 9-course professional specialization covering HTML5, CSS3, JavaScript, React, Version Control, UX Principles, and Capstone Project.",
       badge: "Professional Specialization"
     },
@@ -353,12 +342,12 @@ export const cvData: CVData = {
     },
     {
       id: "ach-4",
-      title: "Dean's List Award of Academic Excellence (Consecutive Semesters)",
-      issuer: "College of Computer Studies",
-      date: "Academic Years 2024 - 2026",
+      title: "Best Capstone Systems Architecture Recognition",
+      issuer: "College of Information and Computing Studies",
+      date: "Academic Year 2025 - 2026",
       type: "Award",
-      description: "Maintained a GPA of 1.25 or higher, recognized for exemplary academic commitment, problem solving, and leadership across all computing courses.",
-      badge: "Academic Honors"
+      description: "Recognized for exemplary systems architecture, modular database design, and clean API implementation in academic capstone software projects.",
+      badge: "Technical Recognition"
     },
     {
       id: "ach-5",

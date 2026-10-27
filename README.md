@@ -14,7 +14,7 @@
 
 - **Student Name:** Jairus Hechanova
 - **Degree Program:** Bachelor of Science in Information Technology (BSIT)
-- **Year Level:** 3rd Year Undergraduate
+- **Year Level:** 4th Year Undergraduate
 - **Specialization / Career Title:** Aspiring Full Stack Web Developer / Future IT Professional
 - **Location:** Panabo City, Davao Del Norte
 - **Email:** hechanovaj1000@gmail.com
@@ -29,7 +29,7 @@ This web project is a modern, responsive, and animated personal **Curriculum Vit
 It fulfills all rubric criteria including:
 1. **Personal Profile** (Full Name, Career Titles, Professional Avatar, Tagline, Introduction, Career Objective)
 2. **Basic Information** (Location, Verified Email, Contact Number, Personal Narrative, Languages, Career Interests)
-3. **Education** (University, BSIT Degree, Senior High School TVL-ICT, GWA / Dean's List honors, Coursework)
+3. **Education** (University BSIT Degree, Senior High School TVL-ICT, Coursework & Competencies)
 4. **Technical & Professional Skills** (Interactive category tabs, search filter, animated proficiency indicators)
 5. **Projects Showcase** (Filtered by category, interactive preview modal, GitHub source code, live demo links)
 6. **GitHub Profile Spotlight** (Public repositories metric, pinned repositories with live stars & fork counts)

@@ -53,7 +53,7 @@ export const PrintableCV: React.FC = () => {
                 <span>{edu.institution} — {edu.location}</span>
                 {edu.gpa && <span>GPA: {edu.gpa}</span>}
               </div>
-              {edu.honors && (
+              {edu.honors && edu.honors.length > 0 && (
                 <p className="text-[11px] text-slate-600 mt-0.5">
                   <span className="font-semibold">Honors: </span>
                   {edu.honors.join(', ')}

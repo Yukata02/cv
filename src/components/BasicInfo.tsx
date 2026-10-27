@@ -100,9 +100,9 @@ export const BasicInfo: React.FC = () => {
             <div className="grid grid-cols-3 gap-4 pt-6 mt-8 border-t border-slate-100 dark:border-slate-800 text-center">
               <div>
                 <span className="block text-2xl font-extrabold text-brand-600 dark:text-brand-400">
-                  1.25
+                  4th
                 </span>
-                <span className="text-xs text-slate-500 dark:text-slate-400">GWA (Dean's List)</span>
+                <span className="text-xs text-slate-500 dark:text-slate-400">Year Level (BSIT)</span>
               </div>
               <div>
                 <span className="block text-2xl font-extrabold text-indigo-600 dark:text-indigo-400">
