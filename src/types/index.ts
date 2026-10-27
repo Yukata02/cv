@@ -95,8 +95,8 @@ export interface CVData {
   education: EducationItem[];
   skillCategories: SkillCategory[];
   projects: ProjectItem[];
-  experience: ExperienceItem[];
-  achievements: AchievementItem[];
+  experience?: ExperienceItem[];
+  achievements?: AchievementItem[];
   socials: SocialLink[];
   githubProfile: {
     username: string;

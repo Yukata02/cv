@@ -2,7 +2,7 @@ import React from 'react';
 import { cvData } from '../data/cvData';
 
 export const PrintableCV: React.FC = () => {
-  const { profile, basicInfo, education, skillCategories, experience, projects, achievements } = cvData;
+  const { profile, basicInfo, education, skillCategories, projects } = cvData;
 
   return (
     <div className="print-only p-8 text-black bg-white max-w-4xl mx-auto font-sans leading-normal">
@@ -79,63 +79,24 @@ export const PrintableCV: React.FC = () => {
         </div>
       </div>
 
-      {/* Experience & Leadership */}
-      <div className="mb-5 page-break-inside-avoid">
-        <h2 className="text-xs font-bold uppercase tracking-wider text-slate-900 border-b border-slate-300 pb-1 mb-2">
-          Experience & Organization Leadership
-        </h2>
-        <div className="space-y-3">
-          {experience.map((exp) => (
-            <div key={exp.id}>
-              <div className="flex justify-between items-baseline">
-                <span className="text-xs font-bold text-slate-900">{exp.role}</span>
-                <span className="text-xs text-slate-600">{exp.period}</span>
-              </div>
-              <p className="text-xs text-slate-700 italic mb-1">
-                {exp.organization} — {exp.location}
-              </p>
-              <ul className="list-disc list-inside space-y-0.5 text-xs text-slate-700">
-                {exp.bulletPoints.map((point, idx) => (
-                  <li key={idx} className="leading-snug">{point}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </div>
-
       {/* Key Projects */}
       <div className="mb-5 page-break-inside-avoid">
         <h2 className="text-xs font-bold uppercase tracking-wider text-slate-900 border-b border-slate-300 pb-1 mb-2">
           Key Software Engineering Projects
         </h2>
         <div className="space-y-2.5">
-          {projects.slice(0, 3).map((proj) => (
-            <div key={proj.id}>
+          {projects.map((proj) => (
+            <div key={proj.id} className="mb-3">
               <div className="flex justify-between items-baseline">
                 <span className="text-xs font-bold text-slate-900">{proj.title}</span>
                 <span className="text-[11px] text-slate-500">{proj.technologies.join(', ')}</span>
               </div>
-              <p className="text-xs text-slate-700 leading-snug">
+              <p className="text-xs text-slate-700 leading-snug mt-0.5">
                 {proj.description}
               </p>
             </div>
           ))}
         </div>
-      </div>
-
-      {/* Certifications & Achievements */}
-      <div className="page-break-inside-avoid">
-        <h2 className="text-xs font-bold uppercase tracking-wider text-slate-900 border-b border-slate-300 pb-1 mb-2">
-          Certifications & Awards
-        </h2>
-        <ul className="list-disc list-inside space-y-1 text-xs text-slate-700">
-          {achievements.slice(0, 4).map((ach) => (
-            <li key={ach.id}>
-              <span className="font-bold text-slate-900">{ach.title}</span> — {ach.issuer} ({ach.date})
-            </li>
-          ))}
-        </ul>
       </div>
     </div>
   );

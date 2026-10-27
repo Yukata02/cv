@@ -7,8 +7,6 @@ import { Education } from './components/Education';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { GitHubShowcase } from './components/GitHubShowcase';
-import { Experience } from './components/Experience';
-import { Achievements } from './components/Achievements';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { PrintableCV } from './components/PrintableCV';
@@ -33,7 +31,7 @@ export const App: React.FC = () => {
           {/* Section 2: Basic Information & Personal Narrative */}
           <BasicInfo />
 
-          {/* Section 3: Education & Academic Honors */}
+          {/* Section 3: Education */}
           <Education />
 
           {/* Section 4: Technical & Professional Skills */}
@@ -45,13 +43,7 @@ export const App: React.FC = () => {
           {/* Section 6: GitHub Profile & Repositories Spotlight */}
           <GitHubShowcase />
 
-          {/* Section 10: Experience, Leadership & Activities */}
-          <Experience />
-
-          {/* Section 9: Achievements, Certifications & Organizations */}
-          <Achievements />
-
-          {/* Section 7 & 8: Contact Inquiries, LinkedIn & Social Media Links */}
+          {/* Section 7: Contact Inquiries, LinkedIn & Social Media Links */}
           <Contact />
         </main>
 

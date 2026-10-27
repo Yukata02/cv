@@ -18,8 +18,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onPrintCV }) => {
     { name: 'Education', href: '#education' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Experience', href: '#experience' },
-    { name: 'Achievements', href: '#achievements' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -27,7 +25,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onPrintCV }) => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
 
-      const sections = ['hero', 'about', 'education', 'skills', 'projects', 'experience', 'achievements', 'contact'];
+      const sections = ['hero', 'about', 'education', 'skills', 'projects', 'contact'];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {

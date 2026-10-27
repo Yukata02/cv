@@ -31,14 +31,12 @@ It fulfills all rubric criteria including:
 1. **Personal Profile** (Full Name, Career Titles, Professional Avatar, Tagline, Introduction, Career Objective)
 2. **Basic Information** (Location, Verified Email, Contact Number, Personal Narrative, Languages, Career Interests)
 3. **Education** (University BSIT Degree, Senior High School TVL-ICT, Coursework & Competencies)
-4. **Technical & Professional Skills** (Interactive category tabs, search filter, clean competencies learned list)
-5. **Projects Showcase** (Filtered by category, interactive preview modal, GitHub source code, live demo links)
+4. **Technical & Professional Skills** (Interactive category tabs, technology icons, search filter)
+5. **Projects Showcase** (Filtered by category, real GitHub repositories, interactive preview modal, live demo links)
 6. **GitHub Profile Spotlight** (Public repositories metric, pinned repositories with live stars & fork counts)
 7. **LinkedIn Profile & Social Media Links** (LinkedIn, GitHub, Facebook, Instagram, direct mailto channels)
-8. **Achievements & Certifications** (Meta Front-End Developer, AWS Cloud Foundations, Google IT Support, Hackathon awards, Speaking engagements)
-9. **Experience & Leadership** (Student developer leadership, freelance client deliverables, academic research lab lead, GDSC mentorship)
-10. **Interactive CV Export** (Built-in clean Print/PDF stylesheet for formal paper and PDF resume generation)
-11. **Dark Mode & Light Mode** (One-click toggle with system preference detection and localStorage persistence)
+8. **Interactive CV Export** (Built-in clean Print/PDF stylesheet for formal paper and PDF resume generation)
+9. **Dark Mode & Light Mode** (One-click toggle with system preference detection and localStorage persistence)
 
 ---
 
